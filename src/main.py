@@ -1,7 +1,7 @@
-from Model import crear_modelo
-from Data import obtener_dataset, crear_dataFrame
+from model import crear_modelo
+from data.data import obtener_dataset, crear_dataFrame
 from sklearn.metrics import roc_auc_score, precision_score, recall_score, f1_score
-from Config import LABEL_COLUMS
+from config import LABEL_COLUMS
 import tensorflow as tf
 
 def main():

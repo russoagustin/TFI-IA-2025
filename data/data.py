@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from Config import BASE_DIR, LABEL_COLUMS, BATCH_SIZE, IMG_SIZE
+from config import BASE_DIR, LABEL_COLUMS, BATCH_SIZE, IMG_SIZE
 import tensorflow as tf
 
 

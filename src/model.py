@@ -1,5 +1,5 @@
 import tensorflow as tf
-from Config import IMG_SIZE
+from config import IMG_SIZE
 
 
 class PCAMPooling(tf.keras.layers.Layer):
